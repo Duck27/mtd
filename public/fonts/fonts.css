@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "TestSöhne";
+  src: local("TestSöhne"),
+    url("/fonts/TestSöhne/TestSöhne-Regular.woff2") format("woff2"),
+    url("/fonts/TestSöhne/TestSöhne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TestSöhne Dreiviertelfett";
+  src: local("TestSöhne"),
+    url("/fonts/TestSöhne/TestSöhne-Dreiviertelfett.otf.woff2") format("woff2"),
+    url("/fonts/TestSöhne/TestSöhne-Dreiviertelfett.otf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TestSöhne Buch";
+  src: local("TestSöhne"),
+    url("/fonts/TestSöhne/TestSöhne-Buch.otf2") format("woff2"),
+    url("/fonts/TestSöhne/TestSöhne-Buch.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro";
+  src: local("SF-Pro"),
+    url("/fonts/SF-Pro/SF-Pro-Text-Regular.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro";
+  src: local("SF-Pro"),
+    url("/fonts/SF-Pro/SF-Pro-Text-Medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro";
+  src: local("SF-Pro"),
+    url("/fonts/SF-Pro/SF-Pro-Text-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro";
+  src: local("SF-Pro"),
+    url("/fonts/SF-Pro/SF-Pro-Text-Thin.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro";
+  src: local("SF-Pro"),
+    url("/fonts/SF-Pro/SF-Pro-Text-Ultralight.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}

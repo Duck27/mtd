@@ -1,0 +1,48 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.modal.open {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.closeButton {
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  position: absolute;
+  top: 22px;
+  right: 42px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  z-index: 9999; /* Увеличен для гарантии видимости над modal */
+  opacity: 0; /* По умолчанию невидим */
+  transition: opacity 0.3s ease; /* Плавность появления */
+}
+
+.closeButton.open {
+  opacity: 1; /* Сделать видимым при открытии модального окна */
+}

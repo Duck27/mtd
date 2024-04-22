@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100%;
+  height: 153px;
+  background: #fceff9 0% 0% no-repeat padding-box;
+  border-radius: 50px 50px 0px 0px;
+  text-align: center;
+}
+
+.innerWrapper {
+  margin: 31px 41px 30px;
+}
+
+.helpText {
+  font-family: "SF-Pro", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+.copyrightText {
+  font-size: 20px;
+  font-family: "SF-Pro", sans-serif;
+  font-weight: 100;
+  line-height: 22px;
+}

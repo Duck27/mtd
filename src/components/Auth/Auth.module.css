@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.closeButton {
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  position: absolute;
+  top: 22px;
+  right: 42px;
+  margin: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-family: "TestSöhne Buch", sans-serif;
+}
+
+.input {
+  width: 251px;
+  height: 55px;
+  margin-top: 20px;
+  padding: 15px;
+  background: #fceff9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #08070880;
+  border: 2px solid #080708;
+  border-radius: 30px;
+}
+
+.signInButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 55px;
+  padding: 15px;
+  margin-top: 40px;
+
+  color: #fff7fc;
+  border: none;
+  background: #00cc99 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #08070880;
+  border-radius: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}

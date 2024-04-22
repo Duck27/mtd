@@ -1,0 +1,32 @@
+.wrapper {
+  background: transparent
+    linear-gradient(140deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 30px;
+  width: 308px;
+  height: 368px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.innerWrapper {
+  margin: 14px 14px 19px;
+}
+
+.uploadImg {
+  width: 281px;
+  height: 281px;
+  border-radius: 30px;
+}
+
+.uploadTitle {
+  margin-top: 11px;
+  letter-spacing: 0px;
+  color: #fceff9;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
